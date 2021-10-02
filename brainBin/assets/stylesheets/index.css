@@ -1,0 +1,88 @@
+@import url("http://fonts.cdnfonts.com/css/gabriola");
+
+.main-box {
+  background-color: white;
+  width: 989px;
+  margin: 0px auto;
+  height: 100%;
+}
+
+body {
+  font-family: "Bebas Neue", cursive;
+}
+
+.logo-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+footer {
+  text-align: center;
+  font-size: 25px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.hiring-text {
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 1px;
+  font-size: 100px;
+  text-align: center;
+}
+
+.large-text {
+  font-size: 200px;
+  letter-spacing: 3px;
+}
+
+.mq-text {
+  font-size: 30px;
+  color: teal;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  display: inline-block;
+  color: teal;
+  text-align: center;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+@media (max-width: 800px) {
+  .hiring-text {
+    font-size: 50px;
+    text-align: left;
+    letter-spacing: 1px;
+  }
+  .large-text {
+    font-size: 100px;
+    text-align: left;
+    letter-spacing: 1px;
+  }
+  .logo-container {
+    align-content: flex-start;
+    justify-content: flex-start;
+  }
+  footer {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .mq-text {
+    font-size: 20px;
+    text-align: left;
+  }
+}
